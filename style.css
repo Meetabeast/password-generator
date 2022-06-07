@@ -118,3 +118,13 @@ body {
 input[type="checkbox"] {
     accent-color: #198754
 }
+
+@media(max-width: 1600px) {
+    .container {
+        margin-left: 1.5%;
+    }
+
+    .navbar {
+        margin-right: 1.5%;
+    }
+}
