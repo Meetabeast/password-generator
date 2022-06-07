@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">
+            <img src="./icon.png" class="brand-img">
+            <h2 class="brand-text">Password Generator</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <span id="password" class="password">Password Generator</span>
+        </div>
+        <div class="body">
+            <div class="control">
+                <label for="passwordlength">Password Length</label>
+                <input id="passwordlength" value="15" type="number" min="2" max="30" class="controllength">
+            </div>
+    
+            <div class="control">
+                <label for="uppercase">Contain Uppercase Letters</label>
+                <input id="uppercase" type="checkbox" class="controlinput" />
+            </div>
+            <div class="control">
+                <label for="lowercase">Contain Lowercase Letters</label>
+                <input id="lowercase" type="checkbox" class="controlinput" />
+            </div>
+            <div class="control">
+                <label for="number">Contain Numbers</label>
+                <input id="number" type="checkbox" class="controlinput"/>
+            </div>
+            <div class="control">
+                <label for="symbol">Contain Symbols</label>
+                <input id="symbol" type="checkbox" class="controlinput" />
+            </div>
+            <button class="generate" id="generatepassword">
+                Generate Password
+            </button>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
