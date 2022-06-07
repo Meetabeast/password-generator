@@ -118,39 +118,3 @@ body {
 input[type="checkbox"] {
     accent-color: #198754
 }
-
-@media only screen and (max-width: 600px) {
-    .container {
-        max-width: 100%;
-        margin-left: 1%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .container {
-        max-width: 100%;
-        margin-left: 27%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .container {
-        
-        max-width: 100%;
-        margin-left: 37%;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .container {
-        max-width: 100%;
-        margin-left: 17%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .container {
-        max-width: 100%;
-        margin-left: 14%;
-    }
-}
