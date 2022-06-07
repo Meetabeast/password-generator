@@ -12,8 +12,6 @@ var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = '0123456789';
 var symbols = '!@#$%^&*()_+~`|}{[]\:;?><,./-=';
 
-console.log(passwordLength.value);
-
 const getLowerCase = () => {
     return lowercase[Math.floor(Math.random() * lowercase.length)];
 }
